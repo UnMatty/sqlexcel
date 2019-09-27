@@ -1,0 +1,10 @@
+{
+  "connection_string" : "jdbc:postgresql://10.211.55.21:5432/maventestdb",
+  "username"  : "cuba",
+  "password"  : "cuba",
+  "exportSqls" : [
+    "select * from test_table1",
+    "select * from test_table2",
+    "select * from test_table3"
+  ]
+}
